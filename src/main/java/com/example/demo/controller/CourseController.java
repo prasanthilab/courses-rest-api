@@ -54,5 +54,10 @@ public class CourseController {
 	public ResponseEntity<String> deleteCourse(@PathVariable Long id) {
 		return ResponseEntity.ok(courseService.deleteCourse(id));
 	}
-	
+	/*
+	 * git init git add README.md git commit -m "first commit" git branch -M main
+	 * git remote add origin https://github.com/prasanthilab/courses-rest-api.git
+	 * git push -u origin main
+	 */
+	//
 }
