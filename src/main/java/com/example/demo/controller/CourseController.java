@@ -26,7 +26,7 @@ public class CourseController {
 	
 	@GetMapping("/hi")
 	public String say() {
-		return "Hello  world";
+		return "Hello  world !!!!!!!";
 	}
 
 	@GetMapping("/{id}")
